@@ -28,6 +28,19 @@ public class SeleniumQTP_RegistrationPage2_Verification {
 	{
 		regP2A.enterLastName(lastname);
 	}
+	public void verifyDateofBirth(String birthday)
+	{
+		regP2A.getdateOfBirth(birthday);
+	}
+	public void verifyDateofBirthM(String birthdayM)
+	{
+		regP2A.getdateOfBirthM(birthdayM);
+	}
+	public void verifyDateofBirthY(String birthdayY)
+	{
+		regP2A.getdateOfBirthY(birthdayY);
+	}
+	
 	
 	public void verifyEmailId(String emailId)
 	{
@@ -41,18 +54,23 @@ public class SeleniumQTP_RegistrationPage2_Verification {
 	{
 		regP2A.clickNextButton();
 	}
-	public void verifyEnterPage2Details(String firstName, String lastName,String emailId,String mobileNumber)
+	public void verifyGender()
+	{
+		regP2A.clickGender();
+	}
+	public void verifyEnterPage2Details(String firstName, String lastName,String birthday,String birthdayM,String birthdayY,String emailId,String mobileNumber)
 	{
 		verifyFirstNameEntered(firstName);
 		verifyLastNameEntered(lastName);
+		verifyDateofBirth(birthday);
+		verifyDateofBirthM(birthdayM);
+		verifyDateofBirthY(birthdayY);
 		verifyEmailId(emailId);
 		verifyMobileNumberEntered(mobileNumber);
+		verifyGender();
 		verifyNextClicked();
 		
 	}
 
-	/*public void verifyEnterPage2Details(String string) {
-		// TODO Auto-generated method stub
-		
-	}*/
+	
 }

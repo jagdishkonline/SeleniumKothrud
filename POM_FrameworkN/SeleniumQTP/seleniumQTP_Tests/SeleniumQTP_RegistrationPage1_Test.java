@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import commonFunctions.BaseClass;
 import seleniumQTP_Verifications.SeleniumQTP_RegistrationPage1_Verification;
 import seleniumQTP_Verifications.SeleniumQTP_RegistrationPage2_Verification;
+import seleniumQTP_Verifications.SeleniumQTP_RegistrationPage3_Verification;
 
 public class SeleniumQTP_RegistrationPage1_Test extends BaseClass {
   @Test
@@ -14,8 +15,10 @@ public class SeleniumQTP_RegistrationPage1_Test extends BaseClass {
 	//  driver.get("https://seleniumqtpautomation.000webhostapp.com/final.html");
 	  SeleniumQTP_RegistrationPage2_Verification regP2=  regPV.verifyRegPage1DataEntered("user", "pass", "confPass");//Imp Step we r returning here SeleniumQTP_RegistrationPage2_Verification
 	 Assert.assertEquals("Reg2", regP2.verifyTitle());//we are verifying page2 Title
-	 regP2.verifyEnterPage2Details("Jagdish","Kamble","jagdishkonline@gmail.com","9762215699");
-  
+	 regP2.verifyEnterPage2Details("Jagdish","Kk","16","Jun","1988","jagdishkonline@gmail.com","9762215699");
+	 SeleniumQTP_RegistrationPage3_Verification regP3 = new SeleniumQTP_RegistrationPage3_Verification(driver);
+	 Assert.assertEquals("Reg3", regP3.verifyTitle());
+	 
   
   }
 }

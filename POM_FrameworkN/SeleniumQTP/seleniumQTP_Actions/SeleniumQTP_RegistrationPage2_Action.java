@@ -4,8 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import commonFunctions.WebButton;
+import commonFunctions.WebDropDown;
 import commonFunctions.WebTextBox;
-import seleniumQTP_Locators.SeleniumQTP_RegistrationPage1_Locators;
+
 import seleniumQTP_Locators.SeleniumQTP_RegistrationPage2_Locators;
 
 public class SeleniumQTP_RegistrationPage2_Action {
@@ -35,6 +36,31 @@ public class SeleniumQTP_RegistrationPage2_Action {
 			WebTextBox.sendInput(ele, lastname);
 		}
 	}
+	
+	public void getdateOfBirth(String dob)
+	{
+		SeleniumQTP_RegistrationPage2_Locators reg2PL= new SeleniumQTP_RegistrationPage2_Locators(driver);
+		ele = reg2PL.getDateOfBirth();
+		if(ele!=null){
+			WebDropDown.webDropDown(ele, dob);
+		}
+	}
+	public void getdateOfBirthM(String dobM)
+	{
+		SeleniumQTP_RegistrationPage2_Locators reg2PL= new SeleniumQTP_RegistrationPage2_Locators(driver);
+		ele = reg2PL.getDateOfBirthM();
+		if(ele!=null){
+			WebDropDown.webDropDown(ele, dobM);
+		}
+	}
+	public void getdateOfBirthY(String dobY)
+	{
+		SeleniumQTP_RegistrationPage2_Locators reg2PL= new SeleniumQTP_RegistrationPage2_Locators(driver);
+		ele = reg2PL.getDateOfBirthY();
+		if(ele!=null){
+			WebDropDown.webDropDown(ele, dobY);
+		}
+	}
 	public void enteremailId(String emailId)
 	{
 		SeleniumQTP_RegistrationPage2_Locators reg2PL= new SeleniumQTP_RegistrationPage2_Locators(driver);//creating instatce of locatoe class
@@ -57,6 +83,15 @@ public class SeleniumQTP_RegistrationPage2_Action {
 	{
 		SeleniumQTP_RegistrationPage2_Locators reg2PL= new SeleniumQTP_RegistrationPage2_Locators(driver);//creating instatce of locatoe class
 		ele = reg2PL.getNextButton();
+		if(ele!=null)
+		{
+			WebButton.click(ele);
+		}
+	}
+	public void clickGender()
+	{
+		SeleniumQTP_RegistrationPage2_Locators reg2PL= new SeleniumQTP_RegistrationPage2_Locators(driver);//creating instatce of locatoe class
+		ele = reg2PL.getGender();
 		if(ele!=null)
 		{
 			WebButton.click(ele);

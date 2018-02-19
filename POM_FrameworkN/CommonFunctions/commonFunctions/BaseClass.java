@@ -19,7 +19,7 @@ String url= "https://seleniumqtpautomation.000webhostapp.com/final.html";
 
   @AfterMethod
   public void afterMethod() {
-	  driver.close();
+	//  driver.close();
   }
 
 }
