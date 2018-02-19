@@ -2,7 +2,7 @@ package seleniumQTP_Verifications;
 
 import org.openqa.selenium.WebDriver;
 
-import seleniumQTP_Actions.SeleniumQTP_RegistrationPage1_Action;
+
 import seleniumQTP_Actions.SeleniumQTP_RegistrationPage2_Action;
 
 public class SeleniumQTP_RegistrationPage2_Verification {
@@ -11,6 +11,7 @@ public class SeleniumQTP_RegistrationPage2_Verification {
 	
 	SeleniumQTP_RegistrationPage2_Action regP2A = null; //creating instance Globally
 
+	
 	public SeleniumQTP_RegistrationPage2_Verification(WebDriver driver) {
 
 		this.driver = driver;
@@ -58,7 +59,7 @@ public class SeleniumQTP_RegistrationPage2_Verification {
 	{
 		regP2A.clickGender();
 	}
-	public void verifyEnterPage2Details(String firstName, String lastName,String birthday,String birthdayM,String birthdayY,String emailId,String mobileNumber)
+	public SeleniumQTP_RegistrationPage2_Verification verifyEnterPage2Details(String firstName, String lastName,String birthday,String birthdayM,String birthdayY,String emailId,String mobileNumber)
 	{
 		verifyFirstNameEntered(firstName);
 		verifyLastNameEntered(lastName);
@@ -69,8 +70,12 @@ public class SeleniumQTP_RegistrationPage2_Verification {
 		verifyMobileNumberEntered(mobileNumber);
 		verifyGender();
 		verifyNextClicked();
+		return null;
 		
 	}
+
+	
+	
 
 	
 }
