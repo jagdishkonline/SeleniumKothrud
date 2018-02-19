@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="assignment9N.SeleniumTestScenario4M">
+        <methods>
+          <include name="openURL"/>
+          <include name="closeURL"/>
+          <include name="registrationForm4"/>
+          <include name="registrationForm1TC2"/>
+          <include name="registrationForm2"/>
+          <include name="registrationForm3"/>
+        </methods>
+      </class> <!-- assignment9N.SeleniumTestScenario4M -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

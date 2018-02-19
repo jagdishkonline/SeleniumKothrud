@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+    <test name="UnitTesting">
+        <classes>
+            <class name="testNGHigLevelConfig.UnitTesting" />
+        </classes>
+    </test>
+    <test name="RegressionTesting">
+        <classes>
+            <class name="testNGHigLevelConfig.RegressionTesting" />
+        </classes>
+    </test>
+    <test name="GUITesting">
+        <classes>
+            <class name="testNGHigLevelConfig.GUITesting" />
+        </classes>
+    </test>
+    <test name="AutomationFeature">
+        <groups>
+            <run>
+                <include name="automationFeature" />
+            </run>
+        </groups>
+        <classes>
+            <class name="testNGHigLevelConfig.GUITesting" />
+            <class name="testNGHigLevelConfig.UnitTesting" />
+            <class name="testNGHigLevelConfig.RegressionTesting" />
+        </classes>
+    </test>
+</suite>

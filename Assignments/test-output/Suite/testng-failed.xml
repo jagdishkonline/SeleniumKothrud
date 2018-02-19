@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="assignment9N.SeleniumTestScenario4M">
+        <methods>
+          <include name="verifyWelcomePage"/>
+          <include name="registrationForm4"/>
+          <include name="registrationForm1TC2"/>
+          <include name="registrationForm2"/>
+          <include name="verifyTitle"/>
+          <include name="registrationForm3"/>
+        </methods>
+      </class> <!-- assignment9N.SeleniumTestScenario4M -->
+      <class name="assignment9N.SeleniumTestScenario4C">
+        <methods>
+          <include name="verifyTitle"/>
+          <include name="verifyWelcomePage"/>
+          <include name="registrationForm3"/>
+          <include name="registrationForm1TC2"/>
+          <include name="registrationForm2"/>
+          <include name="registrationForm4"/>
+          <include name="openURL"/>
+        </methods>
+      </class> <!-- assignment9N.SeleniumTestScenario4C -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

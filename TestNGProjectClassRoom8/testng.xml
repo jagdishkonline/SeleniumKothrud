@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test name="Test">
+    <classes>
+      <class name="testNGPkg.TestNGEx3"/>
+      <class name="testNGPkg.TestNGEx2"/>
+      <class name="testNGPkg.TestNGClass"/>
+      <class name="testNGPkg.TestNGClass2"/>
+      <class name="testNGPkg.TestNGEx"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
