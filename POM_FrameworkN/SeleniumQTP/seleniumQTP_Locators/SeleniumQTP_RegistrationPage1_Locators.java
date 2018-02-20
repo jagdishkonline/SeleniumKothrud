@@ -10,7 +10,7 @@ public class SeleniumQTP_RegistrationPage1_Locators {
 	public SeleniumQTP_RegistrationPage1_Locators(WebDriver driver)// creating constructor
 	{
 		this.driver= driver;
-		PageFactory.initElements(this.driver, this);//very imp line  for intialising locators........
+		PageFactory.initElements(this.driver, this);//very imp line  for initializing locators........
 	}
 //	WebElemnt ele =driver.findElement(By.name("name")); this line means @FindBy
 	@FindBy(name= "name") // we can use any locator here 

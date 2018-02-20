@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10870" started-at="2018-02-19T19:10:55Z" finished-at="2018-02-19T19:11:05Z">
+  <suite name="Default suite" duration-ms="12070" started-at="2018-02-20T10:15:31Z" finished-at="2018-02-20T10:15:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10870" started-at="2018-02-19T19:10:55Z" finished-at="2018-02-19T19:11:05Z">
+    <test name="Default test" duration-ms="12070" started-at="2018-02-20T10:15:31Z" finished-at="2018-02-20T10:15:43Z">
       <class name="seleniumQTP_Tests.SeleniumQTP_RegistrationPage1_Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:seleniumQTP_Tests.SeleniumQTP_RegistrationPage1_Test@91161c7]" name="beforeMethod" is-config="true" duration-ms="7776" started-at="2018-02-20T00:40:55Z" finished-at="2018-02-20T00:41:02Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:seleniumQTP_Tests.SeleniumQTP_RegistrationPage1_Test@91161c7]" name="beforeMethod" is-config="true" duration-ms="8378" started-at="2018-02-20T15:45:31Z" finished-at="2018-02-20T15:45:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="succefullyNavigatePage1()[pri:0, instance:seleniumQTP_Tests.SeleniumQTP_RegistrationPage1_Test@91161c7]" name="succefullyNavigatePage1" duration-ms="3073" started-at="2018-02-20T00:41:02Z" finished-at="2018-02-20T00:41:05Z">
+        <test-method status="PASS" signature="succefullyNavigatePage1()[pri:0, instance:seleniumQTP_Tests.SeleniumQTP_RegistrationPage1_Test@91161c7]" name="succefullyNavigatePage1" duration-ms="3657" started-at="2018-02-20T15:45:39Z" finished-at="2018-02-20T15:45:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- succefullyNavigatePage1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:seleniumQTP_Tests.SeleniumQTP_RegistrationPage1_Test@91161c7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-02-20T00:41:05Z" finished-at="2018-02-20T00:41:05Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:seleniumQTP_Tests.SeleniumQTP_RegistrationPage1_Test@91161c7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-02-20T15:45:43Z" finished-at="2018-02-20T15:45:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
