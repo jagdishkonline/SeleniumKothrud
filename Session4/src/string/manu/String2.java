@@ -15,7 +15,7 @@ public class String2 {
 			{
 				if(text.charAt(i)==text.charAt(j))
 				{
-					System.out.println("indexof"+i+"index of "+j+"is matched");
+					System.out.println("indexof="+ i +"=index of= "+ j +"=is matched");
 				}
 				
 			}

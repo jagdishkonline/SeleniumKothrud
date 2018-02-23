@@ -22,7 +22,7 @@ public class SeleniumBasics {
 		Navigation n = driver.navigate();// Navigation Class Refers  to method for particular url
 		n.to("http://www.google.com");
 		
-		
+		//driver.manage().window().maximize();
 		//navigate Support other methods
 		
 		driver.navigate().back();

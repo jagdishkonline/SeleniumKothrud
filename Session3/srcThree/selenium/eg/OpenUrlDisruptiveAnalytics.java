@@ -10,7 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class OpenUrl {
+public class OpenUrlDisruptiveAnalytics {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub

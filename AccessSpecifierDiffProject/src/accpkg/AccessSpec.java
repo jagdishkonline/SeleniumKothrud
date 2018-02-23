@@ -1,6 +1,8 @@
 package accpkg;
 
-import accessspecifier.PublicClass; //we need to do build path for AccessSpecifier Package
+import accessspecifier.PublicClass;
+
+//import accessspecifier.PublicClass; //we need to do build path for AccessSpecifier Package
 
 public class AccessSpec {
 
