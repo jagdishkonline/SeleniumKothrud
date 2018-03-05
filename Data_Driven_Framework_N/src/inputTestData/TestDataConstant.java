@@ -2,7 +2,7 @@ package inputTestData;
 
 public class TestDataConstant {
 	 
-    public static final String URL = "https://10.10.87.103/UI/";
+    public static final String URL = "https://seleniumqtpautomation.000webhostapp.com/final.html";
 
     public static final String Path_TestData = "D:\\SeleniumKothrud\\Data_Driven_Framework_N\\";
 

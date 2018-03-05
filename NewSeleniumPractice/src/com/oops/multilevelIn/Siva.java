@@ -4,7 +4,7 @@ public class Siva {
 	
 	public void method1()
 	{
-		System.out.println("method1 executed");
+		System.out.println("Method1 executed");
 	}
 
 }
